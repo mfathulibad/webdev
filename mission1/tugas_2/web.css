@@ -1,0 +1,40 @@
+/* body{
+    background-color: #f3f4f6;
+} */
+
+.custom-container{
+    margin-left: 170px;
+    margin-right: 170px;
+    font-family: serif;
+}
+
+.navbar{
+    height: 77px;
+    font-size:18px;
+    color: #A09EB2;
+}
+
+.navbar img{
+    margin-left: 31.5px;
+}
+
+.navbar nav-item{
+    margin-right:31.5px;
+}
+
+.welcome{
+    padding-top: 32px;
+    padding-left: 125px;
+    padding-right: 200px;
+    padding-bottom: 32px;
+}
+
+.welcome h1{
+    font-size: 60px;
+}
+
+.welcome span{
+    color: #DE3F1C;
+    font-weight: bold;
+    font-size: 60px;
+}
