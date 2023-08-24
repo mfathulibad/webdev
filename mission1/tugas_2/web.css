@@ -2,10 +2,20 @@
     background-color: #f3f4f6;
 } */
 
+.container-top{
+    background-color: #f3f4f6;
+}
+
+.container-bottom{
+    background-color: #ffffff;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 .custom-container{
+    /* border-style: solid; */
     margin-left: 170px;
     margin-right: 170px;
-    font-family: serif;
+    font-family: sans-serif;
 }
 
 .navbar{
@@ -23,13 +33,14 @@
 }
 
 .welcome{
+    font-family: serif;
     padding-top: 32px;
-    padding-left: 125px;
-    padding-right: 200px;
     padding-bottom: 32px;
+    width: 1180px;
 }
 
 .welcome h1{
+    color: #38404F;
     font-size: 60px;
 }
 
@@ -37,4 +48,63 @@
     color: #DE3F1C;
     font-weight: bold;
     font-size: 60px;
+}
+
+.text-form{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+p{
+    color: #778298;
+    font-size: 21px;
+}
+
+.text{
+    padding-left: 218px;
+    padding-right: 218px;
+}
+
+.get-started{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 311px;
+    margin-right: 311px;
+}
+
+.get-started input{
+    width: 461px;
+    height: 52px;
+}
+
+.get-started button{
+    color: white;
+    background-color: #65D777;
+    width: 117px;
+}
+
+.service{
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.service h4{
+    margin-top: 23px;
+    margin-bottom: 18px;
+}
+
+.service p{
+    font-size: 18px;
+}
+
+.instructors{
+    padding: 32px;
+}
+.instructors h2{
+    color: #091836;
+    font-family: serif;
+    font-size: 50px;
+    font-weight: bold;
 }
