@@ -5,3 +5,26 @@ body {
 .product-card{
     margin-top: 30px;
 }
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.bottom-card {
+margin-top: auto;
+}
+
+.cart-card{
+    padding: 20px;
+    margin-top: 30px;
+    height: 100%;
+}
+
+.add-to-cart{
+    margin-top: 20px;
+}
+
+input{
+    width: 30px;
+}
