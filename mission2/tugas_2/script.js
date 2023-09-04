@@ -2,6 +2,7 @@ var monkey = document.getElementById('monkey');
 var obstacle = document.getElementById('obstacle');
 const scoreElement = document.getElementById('score');
 
+let isRunning = false;
 let startTime = 0;
 let score = 0;
 
@@ -14,8 +15,24 @@ function jump(){
     },500);
 }
 
-var monkey = document.getElementById("monkey");
-var obstacle = document.getElementById("obstacle");
+function start(){
+  if(isRunning == false){
+    setInterval(gameLoop, 16);
+    obstacle.classList.add("animate-obstacle");
+  }
+}
+
+function gameOver(){
+  isRunning = false;
+  obstacle.classList.remove("animate-obstacle");
+
+  console.log("Collision detected!");
+  alert("Game Over, Your score is " + score);
+  score = 0;
+  startTime = 0
+
+}
+
 
 function checkCollision() {
   var monkeyRect = monkey.getBoundingClientRect();
@@ -27,10 +44,7 @@ function checkCollision() {
     monkeyRect.bottom > obstacleRect.top &&
     monkeyRect.top < obstacleRect.bottom
   ) {
-    console.log("Collision detected!");
-    alert("Game Over, Your score is " + score);
-    score = 0;
-    startTime = 0
+    gameOver();
   }
 }
 
@@ -50,5 +64,3 @@ function gameLoop() {
     checkCollision();
     updateTimer();
 }
-
-var gameLoopInterval = setInterval(gameLoop, 16);
