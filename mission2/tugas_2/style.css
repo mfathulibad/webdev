@@ -22,7 +22,7 @@
 }
 
 #monkey{
-    background-image: url("./assets/monkey.gif");;
+    background-image: url("./images/monkey.gif");;
     background-size: 100%;
     width: 80px;
     height: 80px;
@@ -48,7 +48,7 @@
   }
 
 #obstacle{
-    background-image: url("./assets/obstacle.png");;
+    background-image: url("./images/obstacle.png");;
     background-size: 100%;
     width: 60px;
     height: 80px;
