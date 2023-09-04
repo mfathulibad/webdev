@@ -24,7 +24,7 @@ function start(){
 
 function updateTimer() {
     if (startTime == 0) {
-        startTime = Date.now(); // Mulai waktu saat pertama kali memanggil updateTimer()
+        startTime = Date.now();
     }
     
     const currentTime = Date.now();

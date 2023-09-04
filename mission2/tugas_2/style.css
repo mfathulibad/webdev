@@ -6,28 +6,28 @@
 }
 
 .title{
-    padding-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     color: aliceblue;
 }
 
 #game{
     width: 900px;
     height: 350px;
-    background: green;
+    background: #87CEEB;
     position: relative;
-    top: 100px;
+    top: 30px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #monkey{
-    background-image: url("./assets/iman.jpg");;
+    background-image: url("./assets/monkey.gif");;
     background-size: 100%;
-    width: 60px;
-    height: 60px;
-    background-color: chocolate;
+    width: 80px;
+    height: 80px;
     position: relative;
-    top: 196px;
+    top: 184px;
     left: 100px;
 }
 
@@ -48,11 +48,12 @@
   }
 
 #obstacle{
-    width: 50px;
+    background-image: url("./assets/obstacle.png");;
+    background-size: 100%;
+    width: 60px;
     height: 80px;
-    background: rgb(206, 135, 135);
     position: absolute;
-    top: 220px;
+    top: 225px;
     left: 90%;
 }
 
